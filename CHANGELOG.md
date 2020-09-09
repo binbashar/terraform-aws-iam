@@ -7,6 +7,68 @@ All notable changes to this project will be documented in this file.
 
 
 
+<a name="v2.20.0"></a>
+## [v2.20.0] - 2020-09-08
+
+- fix: simplify count statements ([#93](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/93))
+
+
+<a name="v2.19.0"></a>
+## [v2.19.0] - 2020-09-08
+
+- fix: Allow running on custom AWS partition (incl. govcloud) ([#94](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/94))
+
+
+<a name="v2.18.0"></a>
+## [v2.18.0] - 2020-08-18
+
+- feat: modules/iam-assumable-role-with-oidc: Support multiple provider URLs ([#91](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/91))
+
+
+<a name="v2.17.0"></a>
+## [v2.17.0] - 2020-08-17
+
+- feat: Strip https:// from OIDC provider URL if present ([#50](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/50))
+
+
+<a name="v2.16.0"></a>
+## [v2.16.0] - 2020-08-17
+
+- fix: Allow modules/iam-assumable-role-with-oidc to work in govcloud ([#83](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/83))
+
+
+<a name="v2.15.0"></a>
+## [v2.15.0] - 2020-08-17
+
+- feat: Added support for sts:ExternalId in modules/iam-assumable-role ([#90](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/90))
+
+
+<a name="v2.14.0"></a>
+## [v2.14.0] - 2020-08-13
+
+- fix: Delete DEPRECATED ses_smtp_password in iam-user. ([#88](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/88))
+
+
+<a name="v2.13.0"></a>
+## [v2.13.0] - 2020-08-13
+
+- feat: Support for Terraform v0.13 and AWS provider v3 ([#87](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/87))
+- docs: Updated example in README ([#52](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/52))
+
+
+<a name="v2.12.0"></a>
+## [v2.12.0] - 2020-06-10
+
+- Updated formatting
+- fix: Fix conditions with multiple subjects in assume role with oidc policy ([#74](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/74))
+
+
+<a name="v2.11.0"></a>
+## [v2.11.0] - 2020-06-10
+
+- feat: Allow to set force_detach_policies on roles ([#68](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/68))
+
+
 <a name="v2.10.0"></a>
 ## [v2.10.0] - 2020-05-26
 
@@ -168,7 +230,17 @@ All notable changes to this project will be documented in this file.
 - Initial commit
 
 
-[Unreleased]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.10.0...HEAD
+[Unreleased]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.20.0...HEAD
+[v2.20.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.19.0...v2.20.0
+[v2.19.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.18.0...v2.19.0
+[v2.18.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.17.0...v2.18.0
+[v2.17.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.16.0...v2.17.0
+[v2.16.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.15.0...v2.16.0
+[v2.15.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.14.0...v2.15.0
+[v2.14.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.13.0...v2.14.0
+[v2.13.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.12.0...v2.13.0
+[v2.12.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.11.0...v2.12.0
+[v2.11.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.10.0...v2.11.0
 [v2.10.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.9.0...v2.10.0
 [v2.9.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.8.0...v2.9.0
 [v2.8.0]: https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v2.7.0...v2.8.0

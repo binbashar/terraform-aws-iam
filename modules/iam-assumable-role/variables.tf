@@ -113,9 +113,21 @@ variable "attach_readonly_policy" {
   default     = false
 }
 
+variable "force_detach_policies" {
+  description = "Whether policies should be detached from this role when destroying"
+  type        = bool
+  default     = false
+}
+
 variable "role_description" {
   description = "IAM Role description"
   type        = string
   default     = ""
+}
+
+variable "role_sts_externalid" {
+  description = "STS ExternalId condition value to use with a role (when MFA is not required)"
+  type        = string
+  default     = null
 }
 
