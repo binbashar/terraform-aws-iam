@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [6.6.1](https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v6.6.0...v6.6.1) (2026-05-28)
+
+### Bug Fixes
+
+* Add missing `ec2:DescribeSecurityGroups` IPv4 VPC CNI IRSA permissions ([#646](https://github.com/terraform-aws-modules/terraform-aws-iam/issues/646)) ([10161bc](https://github.com/terraform-aws-modules/terraform-aws-iam/commit/10161bc239d60571c618bc8bd251a11576d4c3e0))
+
 ## [6.6.0](https://github.com/terraform-aws-modules/terraform-aws-iam/compare/v6.5.0...v6.6.0) (2026-04-29)
 
 ### Features
